@@ -1,54 +1,53 @@
 
 
-I. Describe the features, functions, and benefits of the nominated product or
 
+Describe the features, functions, and benefits of the nominated product or
+ 
 service (up to 650 words):
-
-1. About the product
-
--Viettel Recommendation Platform (vRP) is a comprehensive ecosystem of recommendation for businesses or individual with few human resources data science, which can easily tackle the entire process of developing, optimizing, deploying, managing and monitoring recommendations for their own software, improving business efficiency, user experience and conversion rate while reducing costs and saving resources.
-
--The product fully integrated Artificial Intelligence Models, Big Data tools and Model Serving to be deployed in multiple ways to meet business needs.
-
-2. Functions of product
-
+ 
+About the product
+ 
+-Viettel Recommendation Platform (vRP) is a comprehensive ecosystem of recommendation for businesses or individuals with few human resources in data science, which can easily tackle the entire process of developing, optimizing, deploying, managing and monitoring recommendations for their own software, improving business efficiency, user experience and conversion rate while reducing costs and saving resources.
+ 
+-The product fully integrates Artificial Intelligence Models, Big Data tools and Model Serving to be deployed in multiple ways to meet business needs.
+ 
+Functions of product
+ 
 -Personalized Recommendations: Based on user behavior, interests, , as well as what other users have done, vRP uses machine learning algorithms to analyze and provide the most relevant recommendations, which can improve user engagement, satisfaction and conversion rates in almost all use cases.
-
--Automated Models: One-click access to preconfigured Recommendation Models, powered by a scalable and reliable distribution of the most popular ML frameworks (such as Spark MLlib, Pytorch. TensorFlow and scikit-learn), with built-in optimizations for unmatched performance at scale.
-
--Real-time Model Serving: One-click deployment of multiple recommendation models across different channels and devices, business can respond to user behavior and provide relevant suggestions on the fly.
-
+ 
+-Automated Models: One-click access to preconfigured Recommendation Models, powered by a scalable and reliable distribution of the most popular ML frameworks (such as Spark MLlib, Pytorch. TensorFlow and Scikit-learn), with built-in optimizations for unmatched performance at scale.
+ 
+-Real-time Model Serving: One-click deployment of multiple recommendation models across different channels and devices, businesses can respond to user behavior and provide relevant suggestions on the fly.
+ 
 -Easy To Custom Recommendation: Filter and Booter is a function of vRP that customizes items recommended for users by customizable business rules to promote sales strategically and item diversity (for instance, remove out-of-season items and promote trending items).
-
--Integration With Existing systems: vRP can be easily integrated with existing systems such as e-commerce platforms, content management systems and CRM systems. This allows businesses to leverage their existing data and infrastructure.
-
--Big Data Process: vRP is built on a big data processing platform with highly efficient architectures for scaled out and high traffic based on dynamic business requirements.
-
+ 
+-Integration With Existing Systems: vRP can be easily integrated with existing systems such as e-commerce platforms, content management systems and CRM systems. This allows businesses to leverage their existing data and infrastructure.
+ 
+-Big Data Processing: vRP is built on a big data processing platform with highly efficient architectures for scaling out and handling high traffic based on dynamic business requirements.
+ 
 -Business Tracking: The efficacy of recommendation modeling in business is contributed by click through rate and the conversion rate. Depending on the settings, any variance that exceeds a threshold will trigger an alert to be delivered through email, SMS, or to other pertinent stakeholders.
-
-3. Achievement
-
--VPR is being widely used in Viettel, a corporation which holds 54.4% of the mobile market share in Vietnam, is the leading enterprise in Southeast Asia in terms of telecommunications brand value and is among the most reputable enterprises in Vietnam. Currently, vRP is heading to be deployed for wide usage in large enterprises in Vietnam.
-
+ 
+Achievement
+ 
+-VPR is being widely used in Viettel, a corporation that holds 54.4% of the mobile market share in Vietnam, is the leading enterprise in Southeast Asia in terms of telecommunications brand value and is among the most reputable enterprises in Vietnam. Currently, vRP is heading to be deployed for wide usage in large enterprises in Vietnam.
+ 
 - News Recommendation: Users have engaged significantly with the news suggestion component of vRP when it is used for the tenants, with a high click-through rate of over 31%. Also, since the news recommendation tool was introduced, user retention has increased by 26%. Almost 80% of users say that the news recommendations made by vRP are helpful in providing them with highly relevant news.
-
+ 
 -E-commerce Product Recommendation: vRP's e-commerce product recommendation feature has been a significant driver of revenue for the tenants, with a 20% decrease in abandoned cart rate, indicating that the personalized product recommendations are driving more purchases and a  24% increase in customer lifetime value (CLV) , indicating that users are more likely to become repeat customers and make multiple purchases over time.
-
-4. Future works - Road map
+ 
+Future works - Road map
 vRP is heading toward:
-
+ 
 -Offering templates as pre-canned solutions to be integrated and imported via libraries, marketplaces, or galleries, providing users with boilerplate solutions for typical use cases (for instance, an e-commerce product item, social networking content, news story, LMS user, and course).
-
--Developing more features in Business Intelligence Analysis such as auto identify patterns data and data trend, auto report, auto identify areas improvement and opportunities for optimization.
-
--Promoting to bring products to the market of 9 countries where Viettel Group is present while aiming to provide its services to more small and medium-sized enterprises in Vietnam such as Sendo, Foody. TopCv, Vntrip, etc.
-
-II. Summarize in a not more than 3 bulleted points why this product or service deserves recognition
-
+ 
+-Developing more features in Business Intelligence Analysis such as auto-identifying patterns, data trends, auto-reporting, and auto-identifying areas for improvement and opportunities for optimization.
+ 
+-Promoting to bring products to the markets of nine countries where Viettel Group is present while aiming to provide its services to more small and medium-sized enterprises in Vietnam such as Sendo, Foody. TopCv, Vntrip, etc.
+ 
+Summarize in a not more than 3 bulleted points why this product or service deserves recognition
+ 
 -Being the first Recommendation Platform in Vietnam that provided an all-in-one solution for serving, managing and monitoring recommendation and customizable business strategies.
-
--Providing real-time dashboards for non-coders to visualize and track business metrics in almost common use cases.
-
--vRP is built on a big data processing platform, which integrates state-of-the- art technologies in the field of Artificial Intelligence.
-
-
+ 
+-Providing real-time dashboards for non-coders to visualize and track business metrics in almost all use cases.
+ 
+-vRP is built on a big data processing platform that integrates state-of-the- art technologies in the field of Artificial Intelligence.

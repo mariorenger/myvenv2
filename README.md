@@ -1,0 +1,2 @@
+# myvenv2
+                 +------v-------+                     | Interrupted |                     +-------------+                            |                            | Close notebook                     +------v-------+                     |   Closed    |                     +-------------+                            |                            | Explicitly stop notebook execution                     +------v-------+                     |   Stopped   |                     +-------------+

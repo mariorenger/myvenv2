@@ -1,2 +1,1 @@
-# myvenv2
-                 +------v-------+                     | Interrupted |                     +-------------+                            |                            | Close notebook                     +------v-------+                     |   Closed    |                     +-------------+                            |                            | Explicitly stop notebook execution                     +------v-------+                     |   Stopped   |                     +-------------+
+https://m.facebook.com/groups/vnbdc/permalink/600905024121685/?mibextid=Nif5oz

@@ -1,3 +1,33 @@
+import torch
+from transformers import BertTokenizer, BertForSequenceClassification
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Load the BERT model and tokenizer
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+
+# Define the prediction route
+@app.route("/predict", methods=["POST"])
+def predict():
+    try:
+        data = request.json
+        input_text = data["data"]["text"]
+
+        # Process input and make predictions
+        inputs = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True)
+        outputs = model(**inputs)
+        predictions = outputs.logits.tolist()
+
+        response = {"predictions": predictions}
+        return jsonify(response)
+    except Exception as e:
+        return jsonify({"error": str(e)})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+
 # Use an official Python runtime as a parent image
 FROM python:3.8-slim
 

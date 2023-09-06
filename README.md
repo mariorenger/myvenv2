@@ -1,7 +1,7 @@
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 from flask import Flask, request, jsonify
-
+https://dongnc-transfer-data.s3.ap-northeast-1.amazonaws.com/image_giangvl2.zip
 app = Flask(__name__)
 
 # Load the BERT model and tokenizer

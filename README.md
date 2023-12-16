@@ -95,3 +95,26 @@ for group_name, group_dataframe in grouped_dataframes.items():
     group_dataframe.to_excel(writer, sheet_name='Sheet1', index=False, header=False)
     writer.save()
     
+import pandas as pd
+
+# Read the Excel file into a DataFrame
+excel_file = pd.ExcelFile('your_excel_file.xlsx')
+
+# Create a writer to save the output to a new Excel file
+output_excel_writer = pd.ExcelWriter('output_file.xlsx', engine='xlsxwriter')
+
+# Loop through the sheets in the original Excel file
+for sheet_name in excel_file.sheet_names:
+    # Read the sheet into a DataFrame
+    df = excel_file.parse(sheet_name)
+    
+    # Group the DataFrame by the values in the first row
+    grouped = df.groupby(df.iloc[0])
+    
+    # Write each group to a separate sheet in the output Excel file
+    for group_name, group_data in grouped:
+        group_data.to_excel(output_excel_writer, sheet_name=group_name, index=False)
+
+# Save the output Excel file
+output_excel_writer.save()
+

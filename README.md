@@ -78,3 +78,20 @@ kubectl get svc bert-deployment-bert-model
 
 curl -X POST -H "Content-Type: application/json" -d '{"data": {"text": "your text here"}}' http://<endpoint-url>/seldon/bert-deployment/api/v1.0/predictions
 
+import pandas as pd
+
+# Read the Excel file into a DataFrame
+excel_file = pd.ExcelFile('your_excel_file.xlsx')
+
+# Group the DataFrame by the values in the first row (assuming it's the header)
+grouped = excel_file.parse(excel_file.sheet_names[0], header=None, skiprows=1).groupby(0)
+
+# Create a dictionary of DataFrames, one for each group
+grouped_dataframes = {key: group for key, group in grouped}
+
+# Save each group to a separate Excel file
+for group_name, group_dataframe in grouped_dataframes.items():
+    writer = pd.ExcelWriter(f'{group_name}.xlsx', engine='xlsxwriter')
+    group_dataframe.to_excel(writer, sheet_name='Sheet1', index=False, header=False)
+    writer.save()
+    

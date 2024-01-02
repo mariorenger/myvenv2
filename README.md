@@ -1,3 +1,26 @@
+
+1. Xây dựng mô hình học máy dự đoán xu hướng dữ liệu.
+2. Tối ưu hóa thuật toán phân loại dữ liệu lớn.
+3. Phát triển pipeline xử lý dữ liệu tự động.
+4. Tích hợp AI để cải thiện chức năng ứng dụng.
+5. Phân tích dữ liệu lớn để hiểu biểu mẫu hành vi.
+6. Lập trình giao diện cho việc hiển thị dữ liệu.
+7. Cải thiện độ chính xác của mô hình dự báo.
+8. Kiểm tra và đánh giá hiệu suất mô hình học máy.
+9. Tự động hóa quy trình làm sạch và chuẩn hóa dữ liệu.
+10. Thiết kế và thực hiện các thí nghiệm học máy.
+11. Áp dụng kỹ thuật học sâu cho dự án cụ thể.
+12. Nghiên cứu và triển khai thuật toán mới.
+13. Xây dựng hệ thống khuyến nghị thông minh.
+14. Tối ưu hóa lưu trữ và truy xuất dữ liệu.
+15. Cải thiện quy trình phân tích dữ liệu thời gian thực.
+16. Tích hợp dữ liệu từ nhiều nguồn khác nhau.
+17. Phát triển dashboard để theo dõi KPIs.
+18. Thực hiện phân loại và nhận dạng hình ảnh.
+19. Tối ưu hóa thuật toán cho tốc độ xử lý nhanh.
+20. Nghiên cứu về cách áp dụng học máy trong ngành cụ thể.
+
+
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 from flask import Flask, request, jsonify

@@ -1,3 +1,35 @@
+<dependency>
+    <groupId>io.milvus</groupId>
+    <artifactId>milvus-sdk-java</artifactId>
+    <version>2.2.x</version>
+</dependency>
+
+
+
+
+
+import io.milvus.client.*;
+import io.milvus.param.*;
+
+ConnectParam connectParam = ConnectParam.newBuilder()
+    .withHost("127.0.0.1")
+    .withPort(19530)
+    .build();
+
+MilvusClient client = new MilvusServiceClient(connectParam);
+
+CreateDatabaseParam createDatabaseParam = CreateDatabaseParam.newBuilder()
+    .withDatabaseName("book")
+    .build();
+
+R<RpcStatus> createDatabaseResponse = client.createDatabase(createDatabaseParam);
+
+if (createDatabaseResponse.getStatus() != R.Status.Success.getCode()) {
+    System.out.println(createDatabaseResponse.getMessage());
+}
+
+
+
 
 1. Xây dựng mô hình học máy dự đoán xu hướng dữ liệu.
 2. Tối ưu hóa thuật toán phân loại dữ liệu lớn.
